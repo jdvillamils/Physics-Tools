@@ -3,7 +3,7 @@ clear all;
 clf;
 
 %Elliptic Jacobi Function
-m2=0.7;  %ellipticity
+m2=0.7;  %elliptic level
 u=-5:0.01:5;  %range
 [Sn,Cn,Dn]=ellipj(u,m2); %Jacobi Function
 figure(2);
